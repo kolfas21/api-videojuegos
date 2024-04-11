@@ -27,7 +27,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/Videojuegos",
+					"raw": "http://localhost:3000/Videojuegos?clave=titulo&valor=fdjdtj",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -35,6 +35,16 @@
 					"port": "3000",
 					"path": [
 						"Videojuegos"
+					],
+					"query": [
+						{
+							"key": "clave",
+							"value": "titulo"
+						},
+						{
+							"key": "valor",
+							"value": "fdjdtj"
+						}
 					]
 				},
 				"description": "This is a GET request and it is used to \"get\" data from an endpoint. There is no request body for a GET request, but you can use query parameters to help specify the resource you want data on (e.g., in this request, we have `id=1`).\n\nA successful GET response will have a `200 OK` status, and should include some kind of response body - for example, HTML web content or JSON data."
@@ -61,7 +71,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/Videojuegos/6",
+					"raw": "http://localhost:3000/Videojuegos/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -69,7 +79,7 @@
 					"port": "3000",
 					"path": [
 						"Videojuegos",
-						"6"
+						"1"
 					]
 				},
 				"description": "This is a GET request and it is used to \"get\" data from an endpoint. There is no request body for a GET request, but you can use query parameters to help specify the resource you want data on (e.g., in this request, we have `id=1`).\n\nA successful GET response will have a `200 OK` status, and should include some kind of response body - for example, HTML web content or JSON data."
@@ -98,7 +108,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n        \"id\": 4,\n        \"titulo\": \"sergio\",\n        \"plataforma\": \"casa\",\n        \"genero\": \"Aventura\",\n        \"lanzamiento\": \"2017\",\n        \"estudio\": \"desarrollo\",\n        \"modo de juego\": \"Un jugador\",\n        \"precio venta\": \"$59.99\"\n    }",
+					"raw": "{\n        \"titulo\": \"danny1\",\n        \"plataforma\": \"PlayStation 5, Xbox Series X, PC\",\n        \"genero\": \"fhfryur\",\n        \"lanzamiento\": \"2022\",\n        \"estudio\": \"Insomniac Games\",\n        \"modo de juego\": \"Un jugador\",\n        \"precio venta\": \"$69.99\"\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -143,7 +153,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n        \"id\": 4,\n        \"titulo\": \"sergio\",\n        \"plataforma\": \"casa\",\n        \"genero\": \"Aventura\",\n        \"lanzamiento\": \"2017\",\n        \"estudio\": \"desarrollo\",\n        \"modo de juego\": \"Un jugador\",\n        \"precio venta\": \"$59.99\"\n    }",
+					"raw": "{\n        \"titulo\": \"sergio\",\n        \"plataforma\": \"casa\",\n        \"genero\": \"Aventura\",\n        \"lanzamiento\": \"2017\",\n        \"estudio\": \"desarrollo\",\n        \"modo de juego\": \"Un jugador\",\n        \"precio venta\": \"$59.99\"\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -160,6 +170,58 @@
 					"path": [
 						"Videojuegos",
 						"5"
+					]
+				},
+				"description": "This is a PUT request and it is used to overwrite an existing piece of data. For instance, after you create an entity with a POST request, you may want to modify that later. You can do that using a PUT request. You typically identify the entity being updated by including an identifier in the URL (eg. `id=1`).\n\nA successful PUT request typically returns a `200 OK`, `201 Created`, or `204 No Content` response code."
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar un campo Videojuego",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful PUT request\", function () {",
+							"    pm.expect(pm.response.code).to.be.oneOf([200, 201, 204]);",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Videojuegos/ActualizarFecha",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Videojuegos",
+						"ActualizarFecha"
+					],
+					"query": [
+						{
+							"key": "id:",
+							"value": "2",
+							"disabled": true
+						}
 					]
 				},
 				"description": "This is a PUT request and it is used to overwrite an existing piece of data. For instance, after you create an entity with a POST request, you may want to modify that later. You can do that using a PUT request. You typically identify the entity being updated by including an identifier in the URL (eg. `id=1`).\n\nA successful PUT request typically returns a `200 OK`, `201 Created`, or `204 No Content` response code."

@@ -1,0 +1,140 @@
+2024-04-11 00:12:12 [GET] [/Videojuegos/:id] /Videojuegos/1
+
+2024-04-11 00:12:26 [GET] [/Videojuegos] /Videojuegos
+
+2024-04-11 00:13:45 [GET] [/Videojuegos] /Videojuegos
+
+2024-04-11 00:43:44 [PUT] [/Videojuegos/:id] /Videojuegos/5
+
+2024-04-11 00:43:54 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 00:44:03 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 00:56:51 [PUT] [/Videojuegos/:id] /Videojuegos/ActualizarFecha
+
+2024-04-11 00:57:24 [PUT] [unknown] /Videojuegos/1/ActualizarFecha
+
+2024-04-11 00:57:55 [GET] [/Videojuegos] /Videojuegos
+
+2024-04-11 01:01:29 [PUT] [/Videojuegos/:id] /Videojuegos/ActualizarFecha
+
+2024-04-11 01:02:37 [PUT] [unknown] /Videojuegos//1/ActualizarFecha
+
+2024-04-11 01:03:00 [PUT] [unknown] /Videojuegos//1/ActualizarFecha
+
+2024-04-11 01:22:07 [GET] [/Videojuegos] /Videojuegos
+
+2024-04-11 01:23:05 [GET] [/Videojuegos] /Videojuegos?nombre=fdjdtj
+
+2024-04-11 01:23:40 [GET] [/Videojuegos] /Videojuegos?lanzamiento=2022
+
+2024-04-11 01:23:50 [GET] [/Videojuegos] /Videojuegos?lanzamiento=2022
+
+2024-04-11 01:24:17 [GET] [/Videojuegos] /Videojuegos?lanzamiento=2022
+
+2024-04-11 01:25:20 [PUT] [unknown] /Videojuegos/1/ActualizarFecha
+
+2024-04-11 01:25:24 [PUT] [/Videojuegos/:id] /Videojuegos/ActualizarFecha
+
+2024-04-11 01:25:55 [PUT] [/Videojuegos/:id] /Videojuegos/ActualizarFecha?id=1
+
+2024-04-11 01:25:58 [PUT] [/Videojuegos/:id] /Videojuegos/ActualizarFecha?id:=1
+
+2024-04-11 01:26:17 [PUT] [/Videojuegos/:id] /Videojuegos/ActualizarFecha
+
+2024-04-11 01:28:34 [GET] [/Videojuegos] /Videojuegos?clave=plataforma&valor=Nintendo%20Switch
+
+2024-04-11 01:29:16 [GET] [/Videojuegos] /Videojuegos?clave=plataforma&valor=Nintendo%20Switch
+
+2024-04-11 01:29:56 [GET] [/Videojuegos] /Videojuegos?clave=plataforma&valor=Nintendo%20Switch
+
+2024-04-11 01:33:52 [GET] [/Videojuegos] /Videojuegos?clave=plataforma&valor=Nintendo%20Switch
+
+2024-04-11 01:34:18 [GET] [/Videojuegos] /Videojuegos?clave=plataforma&valor=2022
+
+2024-04-11 01:35:05 [GET] [/Videojuegos] /Videojuegos?clave=plataforma
+
+2024-04-11 01:35:27 [GET] [/Videojuegos] /Videojuegos?clave=plataforma&valor=PlayStation%205
+
+2024-04-11 01:35:47 [GET] [/Videojuegos] /Videojuegos?clave=titulo&valor=Spider-Man%202
+
+2024-04-11 01:37:38 [GET] [/Videojuegos] /Videojuegos?clave=lanzamiento&valor=2017
+
+2024-04-11 01:38:09 [GET] [/Videojuegos] /Videojuegos?clave=lanzamiento&valor=2022
+
+2024-04-11 01:38:47 [GET] [/Videojuegos] /Videojuegos?clave=estudio&valor=Insomniac%20Games
+
+2024-04-11 01:39:15 [GET] [/Videojuegos] /Videojuegos?clave=titulo&valor=fdjdtj
+
+2024-04-11 01:41:00 [GET] [/Videojuegos] /Videojuegos?clave=titulo&valor=fdjdtj
+
+2024-04-11 01:41:32 [GET] [/Videojuegos] /Videojuegos?clave=titulo&valor=fdjdtj
+
+2024-04-11 02:08:22 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:10:48 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:11:35 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:11:47 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:12:25 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:12:39 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:19:16 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:21:43 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:24:09 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:26:15 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:26:40 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:27:13 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:28:46 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:29:59 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:30:28 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:30:41 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:35:01 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:35:59 [PUT] [/Videojuegos/:id] /Videojuegos/ActualizarFecha
+
+2024-04-11 02:37:46 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:38:32 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:39:27 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:39:51 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:40:00 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:41:46 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:42:17 [POST] [/Videojuegos/Guardarjuegos] /Videojuegos/Guardarjuegos
+
+2024-04-11 02:49:33 [PUT] [/Videojuegos/:id] /Videojuegos/ActualizarFecha
+
+2024-04-11 02:49:40 [PUT] [/Videojuegos/:id] /Videojuegos/ActualizarFecha
+
+2024-04-11 02:49:46 [PUT] [/Videojuegos/:id] /Videojuegos/ActualizarFecha
+
+2024-04-11 02:49:51 [PUT] [/Videojuegos/:id] /Videojuegos/ActualizarFecha?id:=1
+
+2024-04-11 02:49:55 [PUT] [/Videojuegos/:id] /Videojuegos/ActualizarFecha?id:=2
+
+2024-04-11 02:50:17 [PUT] [/Videojuegos/:id] /Videojuegos/ActualizarFecha
+
+2024-04-11 02:55:43 [PUT] [/Videojuegos/:id] /Videojuegos/ActualizarFecha
+
+2024-04-11 02:56:24 [PUT] [/Videojuegos/:id] /Videojuegos/ActualizarFecha
+
+2024-04-11 02:58:12 [PUT] [/Videojuegos/ActualizarFecha] /Videojuegos/ActualizarFecha
+
